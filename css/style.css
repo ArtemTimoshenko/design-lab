@@ -2,11 +2,24 @@ body{
 	font: 300 16px/1.6 "LatoBA", Arial, sans-serif;
 }
 
+.bb{
+width: 100%;
+height: 10px;
+background: red;
+}
+
 /* Typography */
 h1{
 	font: 700 54px/1.2 "LatoBA", Arial, sans-serif;
 }
 
+h1,h2,h3,h4,h5,h6{
+	letter-spacing: .16em;
+}
+
+h2{
+	font-size: 34px;
+}
 
 a,
 input[type="submit"],
@@ -78,7 +91,7 @@ textarea {
 }
 
 .ba-header__inner{
-width: 98%;
+	width: 98%;
 }
 
 .ba-logo{
@@ -98,42 +111,129 @@ width: 98%;
 	font-size: 54px;
 	letter-spacing: 0.16em;
 	line-height: 1.2em;
-margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .ba-header__text{
-text-transform: uppercase;
-display: block;
-line-height: 1.85em;
+	text-transform: uppercase;
+	display: block;
+	line-height: 1.85em;
 }
 
 .ba-header__svitcher{
-display: inline-block;
-position: absolute;
-bottom: 10%;
-right: 50%;
-margin-right: -11px;
+	display: inline-block;
+	position: absolute;
+	bottom: 10%;
+	right: 50%;
+	margin-right: -11px;
 }
 
 .ba-header__svitcher__img{
-display: block;
+	display: block;
 }
 
 /*---------------------------------------------main------------------------------------------------------*/
-
+/*about us*/
 .ba-about_us{
-padding: 121px 0 161px 0;
+	padding: 121px 0 161px 0;
 }
 
 .ba-box{
-padding: 35px 150px;
-border: solid #393939;
-border-width: 0 2px 2px 2px;
-position: relative;
-margin-top: 40px;
+	padding: 70px 150px 45px;
+	border: solid #393939;
+	border-width: 0 2px 2px 2px;
+	position: relative;
+	margin-top: 40px;
 }
 
-.ba-box-title
+.ba-box:before,
+.ba-box:after{
+	position: absolute;
+	content: "";
+	top: 0;
+	display: block;
+	height: 2px;
+	background-color: #393939;
+	width: 26%;
+}
+
+.ba-box:before{
+	right: 0;
+}
+
+.ba-box:after{
+	left: 0;
+}
+
+.ba-box__title{
+	position: absolute;
+	top: 0;
+	left: 26%;
+	right: 26%;
+	text-align: center;
+	margin: 0;
+	text-transform: uppercase;
+-webkit-transform: translateY(-50%);
+   -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+     -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+}
+
+.ba-about_us__text{
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0;
+}
+
+.ba-about_us__text:first-of-type{
+padding-bottom: 25px;
+}
+
+/*dervices*/
+
+.ba-sevices{
+color: #FFF;
+padding: 87px 0 108px 0;
+background: url("../img/services-backg.png") 50% no-repeat;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.ba-services__text{
+font-size: 16px;
+	line-height: 26px;
+	margin: 0 0 5px 0;
+}
+
+.ba-box-white{
+	padding: 70px 150px 45px;
+	border: solid #fff;
+	border-width: 0 2px 2px 2px;
+	position: relative;
+	margin-top: 40px;
+}
+
+.ba-box-white:before,
+.ba-box-white:after{
+	position: absolute;
+	content: "";
+	top: 0;
+	display: block;
+	height: 2px;
+	background-color: #fff;
+	width: 26%;
+}
+
+.ba-box-white:before{
+	right: 0;
+}
+
+.ba-box-white:after{
+	left: 0;
+}
+
 
 
 
