@@ -1,0 +1,140 @@
+body{
+	font: 300 16px/1.6 "LatoBA", Arial, sans-serif;
+}
+
+/* Typography */
+h1{
+	font: 700 54px/1.2 "LatoBA", Arial, sans-serif;
+}
+
+
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+}
+
+textarea {
+
+}
+
+/*header*/
+
+.ba-container{
+	max-width: 960px;
+	padding: 0 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ba-header{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	background: url("../img/header-background.png") 50% no-repeat;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	color: #FFF;
+	position: relative;
+}
+
+.ba-header__inner{
+width: 98%;
+}
+
+.ba-logo{
+	display: inline-block;
+	height: 69px;
+	width: 65px;
+}
+
+.ba-logo__img{
+	display: block;
+}
+
+.ba-header__title{
+	margin-top: 73px;
+	color: #FFF;
+	padding: 0 0 20px;
+	font-size: 54px;
+	letter-spacing: 0.16em;
+	line-height: 1.2em;
+margin-bottom: 0;
+}
+
+.ba-header__text{
+text-transform: uppercase;
+display: block;
+line-height: 1.85em;
+}
+
+.ba-header__svitcher{
+display: inline-block;
+position: absolute;
+bottom: 10%;
+right: 50%;
+margin-right: -11px;
+}
+
+.ba-header__svitcher__img{
+display: block;
+}
+
+/*---------------------------------------------main------------------------------------------------------*/
+
+.ba-about_us{
+padding: 121px 0 161px 0;
+}
+
+.ba-box{
+padding: 35px 150px;
+border: solid #393939;
+border-width: 0 2px 2px 2px;
+position: relative;
+margin-top: 40px;
+}
+
+.ba-box-title
+
+
+
+
