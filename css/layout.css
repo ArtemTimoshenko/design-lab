@@ -111,7 +111,7 @@ img{
 	*zoom: 1;
 }
 .ba-grid + .ba-grid {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 [class*="ba-width-"] {
 	width: 100%;
@@ -119,10 +119,10 @@ img{
 
 .ba-grid > [class*="ba-width-"] {
 	float: left;
-	padding-left: 20px;
+	padding-left: 10px;
 }
 .ba-grid {
-	margin-left: -20px;
+	margin-left: -10px;
 }
 /* No Padding Grid */
 .ba-grid-nopad {
@@ -183,3 +183,17 @@ img{
 .ba-width-1-10 {
 	width: 10%;
 }
+
+.ba-width-29 {
+	width: 29%;
+}
+
+.ba-width-42 {
+	width: 42%;
+}
+
+
+
+
+
+

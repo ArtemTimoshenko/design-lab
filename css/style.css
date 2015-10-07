@@ -3,9 +3,9 @@ body{
 }
 
 .bb{
-width: 100%;
-height: 10px;
-background: red;
+	width: 100%;
+	height: 10px;
+	background: red;
 }
 
 /* Typography */
@@ -173,11 +173,11 @@ textarea {
 	text-align: center;
 	margin: 0;
 	text-transform: uppercase;
--webkit-transform: translateY(-50%);
-   -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-     -o-transform: translateY(-50%);
-        transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 
 .ba-about_us__text{
@@ -187,22 +187,22 @@ textarea {
 }
 
 .ba-about_us__text:first-of-type{
-padding-bottom: 25px;
+	padding-bottom: 25px;
 }
 
 /*services*/
 
 .ba-sevices{
-color: #FFF;
-padding: 87px 0 108px 0;
-background: url("../img/services-backg.png") 50% no-repeat;
+	color: #FFF;
+	padding: 87px 0 108px 0;
+	background: url("../img/services-backg.png") 50% no-repeat;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
 
 .ba-services__text{
-font-size: 16px;
+	font-size: 16px;
 	line-height: 26px;
 	margin: 0 0 5px 0;
 }
@@ -237,100 +237,195 @@ font-size: 16px;
 /*design*/
 
 .ba-whatwedo{
-padding: 80px 0 114px 0;
+	padding: 80px 0 114px 0;
 }
 
 .ba-whatwedo__design{
-margin-top: 55px;
+	margin-top: 55px;
 }
 
 .ba-whatwedo__design__logo{
-display: inline-block;
-width: 79px;
-height: 83px;
+	display: inline-block;
+	width: 79px;
+	height: 83px;
 }
 
 .ba-whatwedo__design__logo__img{
-display: block;
+	display: block;
 }
 
 .ba-whatwedo__section__design__head{
-font-size: 20px;
-text-transform: uppercase;
-display: block;
-padding-top: 5px;
+	font-size: 20px;
+	text-transform: uppercase;
+	display: block;
+	padding-top: 5px;
 }
 
 .ba-whatwedo__section__design__text{
-font-size: 14px;
-line-height: 26px;
-letter-spacing: 0;
-padding-top: 1px;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0;
+	padding-top: 1px;
 }
 
 /*development*/
 
 .ba-whatwedo__development{
-padding-top: 90px;
+	padding-top: 90px;
 }
 
 .ba-whatwedo__developmentpment__logo{
-display: inline-block;
-width: 79px;
-height: 76px;
+	display: inline-block;
+	width: 79px;
+	height: 76px;
 }
 
 .ba-whatwedo__development__logo__img{
-display: block;
+	display: block;
 }
 
 .ba-whatwedo__section__development__head{
-font-size: 20px;
-text-transform: uppercase;
-display: block;
-padding-top: 1px;
+	font-size: 20px;
+	text-transform: uppercase;
+	display: block;
+	padding-top: 1px;
 }
 
 .ba-whatwedo__section__development__text{
-font-size: 14px;
-line-height: 26px;
-letter-spacing: 0;
-padding-top: 7px;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0;
+	padding-top: 7px;
 }
 
 /*product management*/
 
 .ba-whatwedo__pm{
-padding-top: 74px;
+	padding-top: 74px;
 }
 
 .ba-whatwedo__pm__logo{
 	display: inline-block;
-width: 78px;
-height: 91px;
+	width: 78px;
+	height: 91px;
 }
 
 .ba-whatwedo__pm__logo__img{
-display: block;
+	display: block;
 }
 
 .ba-whatwedo__section__pn__head{
-font-size: 20px;
-text-transform: uppercase;
-display: block;
-padding-top: 8px;
+	font-size: 20px;
+	text-transform: uppercase;
+	display: block;
+	padding-top: 8px;
 }
 
 .ba-whatwedo__section__pm__text{
-font-size: 14px;
-line-height: 26px;
-letter-spacing: 0;
-padding-top: 11px;
-padding-bottom: 23px;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0;
+	padding-top: 11px;
+	padding-bottom: 23px;
 }
 
+/*links*/
 
+.ba-links__column{
+	position: relative;
+}
 
+.ba-links__row__picture{
+	display: block;
+	height: 240px;
+	position: relative;
+}
+
+.ba-links__row__link{
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	left: 10px;
+	right: 0;
+	bottom: 0;
+	background: rgba(255, 255, 255, .1);
+	font-size: 34px;
+	padding-top: 155px;
+	padding-left: 36px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFF;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .3s ease-in, visibility .3s ease-in;
+}
+
+.ba-links__column:hover .ba-links__row__link{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*contactus*/
+
+.ba-contact_us{
+padding-top: 99px;
+}
+
+.ba-contact_us__box__title{
+font-size: 30px;
+}
+
+.ba-contact_us__text{
+margin-top: 0;
+font-size: 16px;
+line-height: 26px;
+}
+
+.ba-contact_us__bottom{
+display: inline-block;
+height: 58px;
+width: 395px;
+text-transform: uppercase;
+color: #FFF;
+font-size: 16px;
+line-height: 58px;
+background: #393939;
+text-decoration: none;
+letter-spacing: 2px;
+margin-top: 20px;
+margin-bottom: 3px;
+}
+
+.ba-contact_us__bottom:hover{
+background: rgba(57, 57, 57, .8);
+}
+
+/*footer*/
+
+.ba-footer{
+text-align: center;
+padding-top: 60px;
+padding-bottom: 60px;
+line-height: 37px;
+}
+
+.ba-logo__footer{
+display: inline-block;
+height: 37px;
+width:35px;
+vertical-align: middle;
+margin-right: 30px;
+}
+
+.ba-logo__footer__img{
+display: block;
+}
+
+.ba-footer__rights{
+font-size: 14px;
+}
 
 
 
