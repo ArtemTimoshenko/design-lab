@@ -4,7 +4,7 @@ body{
 
 .bb{
 	width: 100%;
-	height: 10px;
+	height: 1px;
 	background: red;
 }
 
@@ -24,7 +24,9 @@ h2{
 a,
 input[type="submit"],
 input[type="button"],
-button{
+button{text-decoration: none;
+	color: black;
+
 	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
@@ -34,6 +36,9 @@ input[type="button"],
 button,
 .ba-button{
 	display: inline-block;
+	text-transform: uppercase;
+	color: #FFF;
+	text-decoration: none;
 }
 input[type="submit"]:hover,
 input[type="button"]:hover,
@@ -118,6 +123,7 @@ textarea {
 	text-transform: uppercase;
 	display: block;
 	line-height: 1.85em;
+font-weight: 400;
 }
 
 .ba-header__svitcher{
@@ -241,7 +247,7 @@ textarea {
 }
 
 .ba-whatwedo__design{
-	margin-top: 55px;
+	padding-top: 55px;
 }
 
 .ba-whatwedo__design__logo{
@@ -329,106 +335,141 @@ textarea {
 	padding-bottom: 23px;
 }
 
-/*links*/
 
-.ba-links__column{
-	position: relative;
+.ba-links_column{
+display: block;
+position: relative;
 }
 
-.ba-links__row__picture{
-	display: block;
-	height: 240px;
-	position: relative;
+.ba-links_column img{
+display: block;
+width: 100%;
 }
 
-.ba-links__row__link{
-	position: absolute;
-	display: inline-block;
-	top: 0;
-	left: 10px;
-	right: 0;
-	bottom: 0;
-	background: rgba(255, 255, 255, .1);
-	font-size: 34px;
-	padding-top: 155px;
-	padding-left: 36px;
-	font-weight: bold;
-	text-decoration: none;
-	color: #FFF;
-	text-transform: uppercase;
-	letter-spacing: 7px;
-	visibility: hidden;
-	opacity: 0;
-	transition: opacity .3s ease-in, visibility .3s ease-in;
+.ba-links_column:hover{
+opacity: .8;
 }
 
-.ba-links__column:hover .ba-links__row__link{
-	visibility: visible;
-	opacity: 1;
+.ba-links__title{
+text-transform: uppercase;
+color: #FFF;
+margin: 0;
+font-size: 34px;
+line-height: 34px;
+position: absolute;
+bottom: 40px;
+left: 40px;
+z-index: 33;
+}
+
+@media (min-width: 851px) and (max-width: 1001px){
+.ba-links__title{
+bottom: 5px;
+left: 5px;
+}
+}
+
+@media (max-width: 850px){
+.ba-width-29{
+width: 100%;
+}
+.ba-width-42{
+width: 100%;
+}
+.ba-grid + .ba-grid {
+	margin-top:0;
+}
 }
 
 /*contactus*/
 
 .ba-contact_us{
-padding-top: 99px;
+	padding-top: 99px;
 }
 
 .ba-contact_us__box__title{
-font-size: 30px;
+	font-size: 30px;
 }
 
 .ba-contact_us__text{
-margin-top: 0;
-font-size: 16px;
-line-height: 26px;
+	margin-top: 0;
+	font-size: 16px;
+	line-height: 26px;
 }
 
 .ba-contact_us__bottom{
-display: inline-block;
-height: 58px;
-width: 395px;
-text-transform: uppercase;
-color: #FFF;
-font-size: 16px;
-line-height: 58px;
-background: #393939;
-text-decoration: none;
-letter-spacing: 2px;
-margin-top: 20px;
-margin-bottom: 3px;
+	height: 58px;
+	width: 395px;
+	font-size: 16px;
+	line-height: 58px;
+	background: #393939;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	margin-bottom: 3px;
 }
 
 .ba-contact_us__bottom:hover{
-background: rgba(57, 57, 57, .8);
+	background: rgba(57, 57, 57, .8);
 }
 
 /*footer*/
 
 .ba-footer{
-text-align: center;
-padding-top: 60px;
-padding-bottom: 60px;
-line-height: 37px;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	line-height: 37px;
 }
 
 .ba-logo__footer{
-display: inline-block;
-height: 37px;
-width:35px;
-vertical-align: middle;
-margin-right: 30px;
+	display: inline-block;
+	height: 37px;
+	width:35px;
+	vertical-align: middle;
+	margin-right: 30px;
 }
 
 .ba-logo__footer__img{
-display: block;
+	display: block;
 }
 
 .ba-footer__rights{
-font-size: 14px;
+	font-size: 14px;
 }
 
 
+@media (max-width: 950px){
+.ba-box,
+.ba-box-white{
+padding: 40px 20px;
+}
+}
 
+@media (max-width: 550px){
+.ba-contact_us__bottom{
+width: 150px;
+}
+}
+
+@media (max-width: 495px){
+.ba-box:before,
+.ba-box:after,
+.ba-box-white:before,
+.ba-box-white:after{
+	width: 10%;
+}
+.ba-box__title{
+left: 15%;
+right: 15%;
+}
+}
+
+
+@media (max-width: 381px){
+.ba-header__title{
+font-size: 40px;
+}
+}
 
 
 
