@@ -138,6 +138,16 @@ font-weight: 400;
 	display: block;
 }
 
+@media (max-width: 590px){
+.ba-header__svitcher{
+	display: inline-block;
+	position: absolute;
+	bottom: 2%;
+	right: 50%;
+	margin-right: -11px;
+}
+}
+
 /*---------------------------------------------main------------------------------------------------------*/
 /*about us*/
 .ba-about_us{
